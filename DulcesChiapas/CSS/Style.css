@@ -1,0 +1,144 @@
+*{
+	margin: 0;
+	padding: 0;	
+	}
+	html {
+ 
+}
+html,body {
+	background-color: #9C27B0; 
+    	background-image: url("../Imagenes/fondo.jpg");
+        background-size: cover;
+        -moz-background-size: cover;
+        -webkit-background-size: cover;
+        -o-background-size: cover;   
+    }
+    
+     
+     h1,h2,h3{
+			color:#4A148C;
+			font-family: 'Lucida Sans Unicode', 'Lucida Grande', sans-serif;
+     }
+     h4,h5,h6{
+			color:#F8BBD0;
+			font-size: 1em;
+            line-height: 1.875em;
+            margin-bottom: 0.250em;
+            font-family: 'Raleway', sans-serif;
+            font-weight: normal;
+     }
+     p{
+         	text-align: center;
+            font-style:italic; 
+            line-height: 30pt;
+            font-size: 12pt;
+            color: #222;
+     }
+     .frases{
+         	text-align: center;
+            font-style:italic; 
+            line-height: 30pt;
+            font-size: 16pt;
+            color: #222;
+     }
+     section{
+     	background-color: white;
+     	width: 1024px;
+        margin: 0 auto;
+        padding-bottom: 50px;
+     }
+     
+ /*    #tituloDiv{
+            display:block;
+            background:#F50057;
+            padding:50px 0px;
+            opacity: 0.5;
+     }
+     .piePaginaDiv{
+		width: 100%;
+		height: 150px;
+		background: #FF1744;
+		position: absolute;
+		bottom: 0;
+     }*/
+    header {
+            display:block;
+            background:black;
+            padding:10px 0px;
+
+        }
+   footer {
+		width: 100%;
+		height: 150px;
+		background: #FF1744;
+		bottom: 0;
+		color: white;
+		position:fixed;
+         left:0px;
+        }
+     footer .footer-item {
+    	display: inline-block;
+   		width: 33.33%;
+   	    float: left;
+        }
+     footer .footer-border {
+	    width: 100%;
+	    height: 1px;
+	    background-color: #f4f4f4;
+	    display: inline-block;
+		}
+      footer .footer-item2 {
+	    width: 50%;
+	    display: inline-block;
+	    float: left;
+	    padding: 2rem;
+		}
+      footer p{
+     	text-align: left;
+     	color: white;
+        }
+      footer a{
+     	color: black;
+        }
+        nav{
+            float:right;
+		    width: 600px; /* Anchura del menú */
+		    height: 40px;
+		    margin: 0 auto;
+            font-family: 'Lucida Sans Unicode', 'Lucida Grande', sans-serif;
+		}
+		nav ul{
+		    list-style: none; /* Eliminamos el puntito negro */
+		    display: block;
+		    }
+		 
+		nav ul li{
+		    float: left; /* Alineamos los botones del menú */
+		    margin: 0px; /* Distancia de separación entre botones */
+
+		}
+		nav ul li a, nav ul li a:link{
+            text-decoration: none; /* Quitamos el subrayado de los enlaces */
+            font-size: 20px; /* Tamaño del texto del menú */
+            color: white; /* Color del texto */
+            padding: 3px 10px; /* Establecemos ancho y alto de los botones */
+            cursor: pointer;
+            transition: all 1s linear; /* Comienzan las transiciones CSS3 */
+            -moz-transition: all 1s linear;
+            -webkit-transition: all 1s linear; 
+            -o-transition: all 1s linear;
+            background-color: black; /* Color de fondo para navegadores sin soporte CSS3 */
+            background: -webkit-radial-gradient(#00008B, #00FF7F); /* Degradado de fondo CSS3 */
+            background: -moz-radial-gradient(#00008B, #00FF7F); /* Degradado de fondo CSS3 */
+           -moz-border-radius: 7px 7px 0 0; /* Bordes redondeados */
+           -webkit-border-radius: 7px 7px 0 0;
+
+}
+ 
+nav ul li a:visited, nav ul li a:active{
+    color: white; 
+}
+nav ul li a:hover{
+    background: #F50057; /* Cambiamos color de fondo cuando cursor del ratón esta encima */
+    color: black; /* Cambiamos color de texto */
+  }
